@@ -2,13 +2,13 @@
 
 # Variables
 DB_USER="zabbix"
-DB_PASSWORD="Azzrod1993="
+DB_PASSWORD="VOTRE_PASSWORD"
 DB_NAME="zabbix"
 ZBX_SERVER_CONF="/etc/zabbix/zabbix_server.conf"
 ZBX_AGENT_CONF="/etc/zabbix/zabbix_agent2.conf"
 ZBX_LOG="/var/log/zabbix/zabbix_server.log"
 APACHE_CONF="/etc/apache2/sites-available/zabbix.conf"
-IP_ADDRESS="192.168.1.217"
+IP_ADDRESS="IP_SERVER"
 
 # Vérifier si l'utilisateur est root
 if [ "$EUID" -ne 0 ]; then
@@ -160,13 +160,13 @@ root@PI4:~/zabbix# cat install_zabbix_v4.sh
 
 # Variables
 DB_USER="zabbix"
-DB_PASSWORD="Azzrod1993="
+DB_PASSWORD="VOTRE_PASSWORD"
 DB_NAME="zabbix"
 ZBX_SERVER_CONF="/etc/zabbix/zabbix_server.conf"
 ZBX_AGENT_CONF="/etc/zabbix/zabbix_agent2.conf"
 ZBX_LOG="/var/log/zabbix/zabbix_server.log"
 APACHE_CONF="/etc/apache2/sites-available/zabbix.conf"
-IP_ADDRESS="192.168.1.217"
+IP_ADDRESS="IP_SERVER"
 
 # Vérifier si l'utilisateur est root
 if [ "$EUID" -ne 0 ]; then
